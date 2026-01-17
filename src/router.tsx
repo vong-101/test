@@ -6,7 +6,7 @@ import TableOrderDetail, {
 } from "./pages/table/TableOrderDetail";
 import Order from "./pages/order/Order";
 
-export const router = createBrowserRouter([
+const routes = [
   {
     path: "/",
     element: <RootLayout />,
@@ -30,4 +30,6 @@ export const router = createBrowserRouter([
       },
     ],
   },
-]);
+];
+
+export const router = createBrowserRouter(routes, { basename: "/test" });
