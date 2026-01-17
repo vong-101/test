@@ -7,7 +7,6 @@ import Topbar from "@/components/common/Topbar";
 import { MOCK_CATEGORIES } from "@/mocks/category.mock";
 import MenuCard from "./components/MenuCard";
 import { MOCK_MENUS } from "@/mocks/menu.mock";
-import { useOrderStore } from "@/stores/useOrderStore";
 import OrderReviewDrawer from "./components/OrderReviewDrawer";
 
 const filterOptions: FilterOption[] = [
